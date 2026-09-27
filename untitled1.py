@@ -354,7 +354,7 @@ elif ans==2:
     else:
         print("You are not a registered employee")
         
-if ans==3:
+elif ans==3:
     access=False
     ans1=input("Do you have an account with us? (y/n)?")
     if ans1=='n':
@@ -415,4 +415,6 @@ if ans==3:
                         break
                     else:
                         print("Invalid choice.")
+else:
+    print("Invalid choice")
                             
